@@ -1,16 +1,16 @@
 {- |
-   Module      : Text.Highlighting.Kate.Format
+   Module      : Text.Highlighting.Kate.Format.Blaze
    Copyright   : Copyright (C) 2008 John MacFarlane, 2011 Antoine Latter
    License     : GNU GPL, version 2 or above 
 
-   Maintainer  : John MacFarlane <jgm@berkeley.edu>
+   Maintainer  : Antoine Latter <aslatter@gmail.com>
    Stability   : alpha 
    Portability : portable
 
 Formatters that convert a list of annotated source lines to various output formats.
 -}
 
-module Text.Highlighting.Kate.Format.BlazeHtml
+module Text.Highlighting.Kate.Format.Blaze
     ( formatAsHtml, FormatOption (..), defaultHighlightingCss ) where
 import Text.Highlighting.Kate.Format ( FormatOption(..), defaultHighlightingCss)
 import Text.Highlighting.Kate.Definitions
